@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated RAG index (built fresh from whatever PDF you upload)
+index/
+
+# Environment variables / secrets
+.env
+*.key
+
+# OS junk
+.DS_Store
+Thumbs.db
