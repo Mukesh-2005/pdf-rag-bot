@@ -1,10 +1,5 @@
 # PDF RAG Chatbot — Project Documentation
 
-A build log of what this project is, the decisions made along the way,
-the problems that came up, and what I learned from each one. Written as
-a reference for myself and for explaining the project later (interviews,
-resume, etc.).
-
 ---
 
 ## 1. Goal
@@ -132,10 +127,5 @@ Set up git locally, added a `.gitignore` to keep `venv/`, the generated
 `index/` folder, and any API keys out of the repository — all of those
 are either machine-specific, regenerable, or secret, and none belong in
 version control.
-
-**Lesson:** `.gitignore` matters most for exactly the kind of files that
-are easy to forget about — a generated index folder looks like "part of
-the project" until you remember it's just output, rebuilt fresh from
-whatever PDF gets uploaded next.
 
 
